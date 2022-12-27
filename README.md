@@ -1,4 +1,4 @@
-# demo_application
+# Weather App
 
 A new Flutter project.
 
