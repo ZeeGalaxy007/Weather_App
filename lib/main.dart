@@ -8,6 +8,7 @@ import 'package:demo_application/utils/our_themes.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:velocity_x/velocity_x.dart';
+// ignore: depend_on_referenced_packages
 import 'package:intl/intl.dart';
 
 main() {
@@ -25,7 +26,7 @@ class App extends StatelessWidget {
       themeMode: ThemeMode.system,
       debugShowCheckedModeBanner: false,
       home: const WeatherApp(),
-      title: "Weather App",
+      title: "Weather App"
     );
   }
 }
